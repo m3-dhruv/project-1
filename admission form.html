@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>admission form</title>
+
+    <link rel="apple-touch-icon" sizes="180x180" href=".\favicon\favicon.ico">
+    <link rel="icon" type="image/png" sizes="32x32" href=".\favicon\favicon.ico">
+    <link rel="icon" type="image/png" sizes="16x16" href=".\favicon\favicon.ico">
+    <link rel="manifest" href="C:\Users\panch\Documents\about collage/site.webmanifest">
+    <link rel="stylesheet" href="firstpage.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="./fonts/css2.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="./fonts/css-part-2.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        body {
+            background-color: rgb(249, 252, 254);
+        }
+
+        .mod {
+            padding: 10px 50px;
+            border-radius: 18px;
+            background-color: maroon;
+            color: white;
+            font-family: 'Cormorant Garamond', serif;
+            text-shadow: 3px 3px 3px black;
+            font-size: 25px;
+            border: 2px solid black;
+        }
+
+        .align-center {
+            text-align: center;
+        }
+
+        #contact-box {
+            border: 2px solid black;
+            max-width: 400pX;
+            margin: auto;
+            border-radius: 5px;
+            background-color: rgb(173, 207, 217);
+            padding: 20px;
+            box-sizing: border-box;
+        }
+
+
+        #gotohome {
+            width: 100%;
+            background-color: rgb(129, 6, 6);
+            border: 2px solid black;
+            color: white;
+            padding: 14px 20px;
+            margin: 8px 0px;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: large;
+            font-family: 'Cormorant Garamond', serif;
+        }
+
+        #gotohome:hover {
+            font-family: 'Cormorant Garamond', serif;
+            background-color: rgb(109, 17, 17);
+        }
+
+
+        .submitbtn {
+            width: 100%;
+            background-color: rgb(129, 6, 6);
+            border: 2px solid black;
+            color: white;
+            padding: 14px 20px;
+            margin: 8px 0px;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: large;
+            font-family: 'Cormorant Garamond', serif;
+        }
+
+        .submitbtn:hover {
+            font-family: 'Cormorant Garamond', serif;
+            background-color: rgb(109, 17, 17);
+        }
+
+
+        input[type=text],
+        [type=number],
+        select {
+            width: 100%;
+            padding: 12px;
+            margin: 8px o;
+            display: inline-block;
+        }
+
+        .one {
+            width: 90%;
+            margin: 10px;
+        }
+
+        .one input,
+        select {
+            border: 2px solid black;
+            border-radius: 5px;
+        }
+
+        .one label {
+            font-family: 'Itim', cursive;
+            font-size: 17px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <a href="index.html"><button id="gotohome">To The Home</button></a>
+
+    <h2 class="align-center"><span class="mod">ADMISSION ENQUIRY</span></h2>
+
+    <section>
+        <div id="contact-box">
+            <form action="">
+
+                <div class="one">
+                    <label for="name">Name :</label>
+                    <input type="text" name="name" placeholder="Enter Name" required>
+                </div>
+
+                <div class="one">
+                    <label for="email">Email :</label>
+                    <input type="text" name="email" placeholder="Enter Email Address" required>
+                </div>
+
+                <div class="one">
+                    <label for="mobile">Mobile Number :</label>
+                    <input type="number" name="number" placeholder="Enter Mobile Number" required>
+                </div>
+
+                <div class="one">
+                    <label for="state">Select State :</label>
+                    <select name="State" id="State" required>State
+                        <option value="State"> Select State</option>
+                        <option value="State"> Andhra pradesh</option>
+                        <option value="State">Arunachal pradesh</option>
+                        <option value="State">Bihar</option>
+                        <option value="State">Chandigarh</option>
+                        <option value="State">Chhattisgarh</option>
+                        <option value="State">Dadra and Nagar haveli</option>
+                        <option value="State">Daman and Diu</option>
+                        <option value="State">Delhi</option>
+                        <option value="State">Goa</option>
+                        <option value="State">Gujarat</option>
+                        <option value="State">Haryana</option>
+                        <option value="State">Kerala</option>
+                        <option value="State">Ladakh</option>
+                        <option value="State">Lakshadeep</option>
+                        <option value="State">Maharashtra</option>
+                        <option value="State">Manipur</option>
+                        <option value="State">Nagaland</option>
+                        <option value="State">odisha</option>
+                        <option value="State">Punjab</option>
+                        <option value="State">Rajasthan</option>
+                        <option value="State">Sikkim</option>
+                        <option value="State">Tamil Nadu</option>
+                        <option value="State">west bengal</option>
+                    </select>
+                </div>
+
+                <div class="one">
+                    <label for="state">Select Course :</label>
+                    <select name="State" id="State" required>courses
+                        <option value="course"> Select course</option>
+                        <option value="course">Certificate </option>
+                        <option value="course">Maritime Studies </option>
+                        <option value="course">After 10th (Diploma Courses) </option>
+                        <option value="course">After 12th (Undergraduate Courses) </option>
+                        <option value="course">After Graduatio (PG Courses) </option>
+                        <option value="course">PG Diploma </option>
+                        <option value="course">After Post Graduation (PH.D) </option>
+                        <option value="course">After Diploma (Lateral Entry-UG) </option>
+                    </select>
+                </div>
+
+                <div class="one">
+                    <label for="">Enquiry :</label>
+                    <input type="text" name="text" placeholder="Enter text as shown">
+                </div>
+
+                <div class="one">
+                    <input type="checkbox">
+                    <label for="vehicle1">I allow Ganpat University to contact me*</label> <br>
+
+                </div>
+
+                <input class="submitbtn" type="submit" value="SUBMIT">
+
+            </form>
+        </div>
+    </section>
+
+    <br>
+    <hr> <br>
+
+    <h2 class="align-center"><span class="mod">ADMISSION OPEN</span></h2>
+
+    <section>
+        <div id="contact-box">
+            <form action="">
+
+                <div class="one">
+                    <label for="name">Name :</label>
+                    <input type="text" name="name" placeholder="Enter Name" required>
+                </div>
+
+                <div class="one">
+                    <label for="email">Email :</label>
+                    <input type="text" name="email" placeholder="Enter Email Address" required>
+                </div>
+
+                <div class="one">
+                    <label for="mobile">Mobile Number :</label>
+                    <input type="number" name="number" placeholder="Enter Mobile Number" required>
+                </div>
+
+                <div class="one">
+                    <label for="state">Select State :</label>
+                    <select name="State" id="State" required>State
+                        <option value="State"> Select State</option>
+                        <option value="State"> Andhra pradesh</option>
+                        <option value="State">Arunachal pradesh</option>
+                        <option value="State">Bihar</option>
+                        <option value="State">Chandigarh</option>
+                        <option value="State">Chhattisgarh</option>
+                        <option value="State">Dadra and Nagar haveli</option>
+                        <option value="State">Daman and Diu</option>
+                        <option value="State">Delhi</option>
+                        <option value="State">Goa</option>
+                        <option value="State">Gujarat</option>
+                        <option value="State">Haryana</option>
+                        <option value="State">Kerala</option>
+                        <option value="State">Ladakh</option>
+                        <option value="State">Lakshadeep</option>
+                        <option value="State">Maharashtra</option>
+                        <option value="State">Manipur</option>
+                        <option value="State">Nagaland</option>
+                        <option value="State">odisha</option>
+                        <option value="State">Punjab</option>
+                        <option value="State">Rajasthan</option>
+                        <option value="State">Sikkim</option>
+                        <option value="State">Tamil Nadu</option>
+                        <option value="State">west bengal</option>
+                    </select>
+                </div>
+
+                <div class="one">
+                    <label for="state">Select Course :</label>
+                    <select name="State" id="State" required>courses
+                        <option value="course"> Select course</option>
+                        <option value="course">Certificate </option>
+                        <option value="course">Maritime Studies </option>
+                        <option value="course">After 10th (Diploma Courses) </option>
+                        <option value="course">After 12th (Undergraduate Courses) </option>
+                        <option value="course">After Graduatio (PG Courses) </option>
+                        <option value="course">PG Diploma </option>
+                        <option value="course">After Post Graduation (PH.D) </option>
+                        <option value="course">After Diploma (Lateral Entry-UG) </option>
+                    </select>
+                </div>
+
+
+                <div class="one">
+                    <input type="checkbox">
+                    <label for="vehicle1"> I agree to receive information regarding my submitted application by signing
+                        up on ganpat university*</label> <br>
+
+                </div>
+
+                <input class="submitbtn" type="submit" value="SUBMIT">
+
+            </form>
+        </div>
+    </section>
+
+
+
+</body>
+
+</html>

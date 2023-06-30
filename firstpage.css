@@ -1,0 +1,311 @@
+* {
+    box-sizing: border-box;
+}
+
+#navbar {
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top: 0px;
+}
+
+#logo {
+    margin: 1px 3px;
+}
+
+#logo img {
+    height: 55px;
+    margin: 3px 10px;
+}
+
+#navbar ul {
+    display: flex;
+}
+
+#navbar::before {
+    content: "";
+    background-color: black;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.5;
+}
+
+#navbar ul li {
+    list-style: none;
+    font-size: 15px;
+
+}
+
+#navbar ul li a {
+    display: block;
+    padding: 3px 15px;
+    border-radius: 20px;
+    text-decoration: none;
+    color: white;
+    font-family: 'Itim', cursive;
+}
+
+#navbar ul li a:hover {
+    color: black;
+    background-color: white;
+}
+
+#home {
+    display: flex;
+    flex-direction: column;
+    padding: 3px 200px;
+    justify-content: center;
+    align-items: center;
+    height: 550px;
+}
+
+#home::before {
+    content: "";
+    background: url("img/first.2.jpg") no-repeat center center/cover;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.80;
+}
+
+#home h1 {
+    color: white;
+    text-align: center;
+    
+}
+
+#home p {
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.h-primary {
+    font-size: 3rem;
+    font-family: 'Cormorant Garamond', serif;
+    /*font-family: 'Merriweather', serif;*/
+    /*font-family: 'Roboto Slab', serif;*/
+    padding: 12px;
+    text-shadow: 3px 3px 2px black;
+}
+
+/*.btn {
+    padding: 6px 20px;
+    border: 2px solid white;
+    background-color: brown;
+    color: white;
+    margin: 17px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.btn:hover{
+    background-color: black;
+    color:blanchedalmond;
+}*/
+
+.mod {
+    padding: 10px 50px;
+    border-radius: 18px;
+    background-color: rgb(128, 33, 33);
+    color: white;
+    font-family: 'Itim', cursive;
+    text-shadow: 3px 3px 3px black;
+    font-size: 25px;
+    border: 2px solid black;
+}
+
+.align-center {
+    text-align: center;
+}
+
+
+.one {
+    margin: 10px;
+    color: black;
+    font-family: 'Itim', cursive;
+    font-size: 18px;
+
+}
+
+.two {
+    color: blackd;
+    margin-right: 15px;
+    font-family: 'Cormorant Garamond', serif;
+    text-shadow: 1px 1px 1px rgb(77, 79, 78);
+    font-size: 25px;
+
+}
+
+
+.emg {
+    height: 250px;
+    border-radius: 5px;
+    display: flex;
+}
+
+.okk {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(223, 234, 234);
+    padding: 15px;
+    border: 2px solid rgb(186, 206, 206);
+    border-radius: 5px;
+}
+
+.container {
+    display: grid;
+    grid-gap: 1rem;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    grid-template-rows: auto;
+}
+
+.box {
+    border: 2px solid rgb(186, 206, 206);
+    background-color: rgb(186, 206, 206);
+    padding: 10px 10px;
+    margin: 20px 20px;
+    text-align: center;
+    font-family: 'Itim', cursive;
+    border-radius: 10px;
+}
+
+.box:hover{
+    background-color: rgb(72, 131, 131);
+    cursor: pointer;
+    
+}
+
+.box h1 {
+    color: rgb(126, 33, 33);
+    text-shadow: 1px 1px 0px black;
+}
+
+
+.carousel-cell {
+    width: 50%;
+    border-radius: 5px;
+}
+
+.edit {
+    width: 80%;
+    border-radius: 15px;
+}
+
+.founderimg {
+    text-align: center;
+    border-radius: 50%;
+    width: 300px;
+    margin-top: 20px;
+    border: 2px solid #120f5e;
+}
+
+#name {
+    text-align: center;
+    color: black;
+    font-family: 'Cormorant Garamond', serif;
+    text-shadow: 1px 1px 1px brown;
+    ;
+    font-size: 32px;
+    margin: 10px;
+    margin-bottom: 30px;
+    /*text-transform: uppercase;*/
+    word-spacing: 10px;
+    letter-spacing: 2px;
+}
+
+.sm_handle {
+    text-align: center;
+}
+
+.sm_handle a {
+    background-color: rgba(106, 106, 106, 25%);
+    padding: 10px 15px;
+    border-radius: 30px;
+    margin: 50x;
+    text-decoration: none;
+    font-family: 'Itim', cursive;
+    font-size: 15px;
+}
+
+.sm_handle a:hover {
+    background-color: rgba(19, 19, 19, 25%);
+}
+
+.sm_handle a i {
+    margin: 5px;
+}
+
+.sm_yt {
+    color: #FF0000;
+}
+
+.sm_fb {
+    color: #0e76a8;
+}
+
+.sm_insta {
+    color: #dd2a7b;
+}
+
+.about_us {
+    margin: 30px 100px;
+}
+
+.about_title {
+    font-size: 1.45em;
+    padding: 0px 10px;
+    color: #120f5e;
+    font-family: 'Itim', cursive;
+}
+
+footer {
+    background-color: rgb(34, 34, 34);
+    overflow: hidden;
+}
+
+footer a {
+    text-decoration: none;
+    padding: 20px 20px;
+    text-align: center;
+    float: left;
+    color: white;
+    font-family: 'Itim', cursive;
+    border-radius: 20px;
+    margin-left: 10px;
+}
+
+footer a:hover {
+    color: maroon;
+    background-color: white;
+    padding: 5px 20px;
+    margin-top: 15px;
+    margin-left: 10px;
+}
+
+
+
+
+
+
+@media screen and (max-width: 1000px) {
+
+    /*nav {
+        flex-direction: column;
+    }*/
+    nav ul {
+        flex-direction: column;
+        padding: 0px 7px;
+    }
+
+    div {
+        flex-direction: column;
+    }
+
+    footer {
+        flex-direction: column;
+    }
+
+}

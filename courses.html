@@ -1,0 +1,514 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Courses</title>
+
+    <link rel="apple-touch-icon" sizes="180x180" href=".\favicon\favicon.ico">
+    <link rel="icon" type="image/png" sizes="32x32" href=".\favicon\favicon.ico">
+    <link rel="icon" type="image/png" sizes="16x16" href=".\favicon\favicon.ico">
+    <link rel="manifest" href="C:\Users\panch\Documents\about collage/site.webmanifest">
+    <link rel="stylesheet" href="firstpage.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="./fonts/css2.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="./fonts/css-part-2.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <script src="C:\Users\panch\Documents\jquery-3.6.4.js"></script>
+    <script>
+
+        $(document).ready(function () {
+            $("#panal1").click(function () {
+                $("#flip1").slideToggle(1000);
+            });
+        });
+
+        $(document).ready(function () {
+            $("#panal2").click(function () {
+                $("#flip2").slideToggle(1000);
+            });
+        });
+
+        $(document).ready(function () {
+            $("#panal3").click(function () {
+                $("#flip3").slideToggle(1000);
+            });
+        });
+
+        $(document).ready(function () {
+            $("#panal4").click(function () {
+                $("#flip4").slideToggle(1000);
+            });
+        });
+
+        $(document).ready(function () {
+            $("#panal5").click(function () {
+                $("#flip5").slideToggle(1000);
+            });
+        });
+
+        $(document).ready(function () {
+            $("#panal6").click(function () {
+                $("#flip6").slideToggle(1000);
+            });
+        });
+
+        $(document).ready(function () {
+            $("#panal7").click(function () {
+                $("#flip7").slideToggle(1000);
+            });
+        });
+
+        $(document).ready(function () {
+            $("#panal8").click(function () {
+                $("#flip8").slideToggle(1000);
+            });
+        });
+
+        $(document).ready(function () {
+            $("#panal9").click(function () {
+                $("#flip9").slideToggle(1000);
+            });
+        });
+
+        $(document).ready(function () {
+            $("#panal10").click(function () {
+                $("#flip10").slideToggle(1000);
+            });
+        });
+
+
+    </script>
+
+    <style>
+        #flip1,
+        #flip2,
+        #flip3,
+        #flip4,
+        #flip5,
+        #flip6,
+        #flip7,
+        #flip8,
+        #flip9,
+        #flip10 {
+            display: none;
+        }
+
+
+
+
+        .mod {
+            padding: 10px 50px;
+            border-radius: 18px;
+            background-color: rgb(128, 33, 33);
+            color: white;
+            font-family: 'Itim', cursive;
+            text-shadow: 3px 3px 3px black;
+            font-size: 25px;
+            border: 2px solid black;
+        }
+
+        .align-center {
+            text-align: center;
+        }
+
+        .mod1 {
+            padding: 10px 50px;
+            border-radius: 5px;
+            background-color: rgb(2, 29, 33);
+            color: rgb(255, 255, 255);
+            font-family: 'Itim', cursive;
+            text-shadow: 3px 3px 3px rgb(10, 9, 9);
+            font-size: 20px;
+            margin-left: 10px;
+            display: flex;
+            border: 2px solid black;
+
+        }
+
+        .container {
+            display: grid;
+            grid-gap: 1rem;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            grid-template-rows: auto;
+            margin: 20px;
+
+        }
+
+        .box {
+            background-color: rgb(177, 210, 176);
+            padding: 0px 20px;
+            margin: 5px 5px;
+            border-radius: 10px;
+            display: flex;
+        }
+
+        .box:hover {
+            background-color: rgb(72, 131, 131);
+            cursor: pointer;
+        }
+
+        .box-0:hover {
+            background-color: rgb(72, 131, 131);
+            cursor: pointer;
+        }
+
+        .box-0 {
+            border: 2px solid rgb(11, 10, 11);
+            background-color: rgb(177, 210, 176);
+            padding: 10px 30px;
+            margin: 10px 10px;
+            border-radius: 5px;
+        }
+
+        .box h1,
+        .box-0 h1 {
+            color: black;
+            font-family: 'Cormorant Garamond', serif;
+            font-size: 1.4rem;
+
+        }
+
+        .box h3,
+        .box-0 h3 {
+            font-family: 'Cormorant Garamond', serif;
+        }
+    </style>
+
+
+</head>
+
+<body>
+    <nav id="navbar">
+        <div id="logo">
+            <img src=".\img\logo.png" alt="error">
+        </div>
+
+        <ul>
+            <li class="item"><a href="index.html">HOME</a></li>
+            <li class="item"><a href="courses.html">COURSES</a></li>
+            <li class="item"><a href="event detail.html">EVENT DETAILS</a></li>
+            <li class="item"><a href="admission form.html">ADDMISSION FORM</a></li>
+            <li class="item"><a href="contact us.html">CONTECT US</a></li>
+        </ul>
+    </nav>
+    <div>
+        <h2 class="align-center"><span class="mod">Courses</span></h2>
+    </div>
+    <br><br>
+    <section>
+        <h2><span class="mod1" id="panal1">Engineering & Technology</span></h2>
+
+        <div class="container" id="flip1">
+
+            <div class="box">
+                <h1>B.Tech. Computer
+                    Science & Engineering
+                    (Big Data and Analyties)
+                </h1>
+            </div>
+
+            <div class="box">
+                <h1>B.Tech. Computer
+                    Science & Engineering
+                    (Cloud Based Application)
+                </h1>
+            </div>
+
+            <div class="box">
+                <h1>B.Tech.
+                    (Petrochemical)
+                </h1>
+            </div>
+
+            <div class="box">
+                <h1>B.Tech.
+                    (Marine)
+                </h1>
+            </div>
+
+            <div class="box">
+                <h1>B.Tech.
+                    (Mechanical)
+                </h1>
+            </div>
+
+            <div class="box">
+                <h1>B.Tech.
+                    (Information Technology)
+                </h1>
+            </div>
+
+            <div class="box">
+                <h1>B.Tech.
+                    (Civil)
+                </h1>
+            </div>
+
+            <div class="box">
+                <h1>B.Tech.
+                    (Automobile)
+                </h1>
+            </div>
+
+        </div>
+    </section>
+    <hr>
+    <section>
+        <h2><span class="mod1" id="panal2">Architecture,Design & Planning</span></h2>
+        <div class="container" id="flip2">
+
+            <div class="box">
+                <h1>B.Arch.
+                    (Architecture)
+                </h1>
+            </div>
+
+            <div class="box">
+                <h1>B.Design.
+                    (Interior Design)
+                </h1>
+            </div>
+        </div>
+    </section>
+    <hr>
+    <section>
+        <h2><span class="mod1" id="panal3">Computer Application</span></h2>
+        <div class="container" id="flip3">
+
+            <div class="box">
+                <h1>BCA</h1>
+            </div>
+
+            <div class="box">
+                <h1>BCA + MCA(5 years Integrated)</h1>
+            </div>
+
+            <div class="box">
+                <h1>B.Sc.IT (Cloude Computing)</h1>
+            </div>
+
+            <div class="box">
+                <h1>B. Sc. (CA & IT)</h1>
+            </div>
+
+            <div class="box">
+                <h1>B. Sc. (Information Technology)</h1>
+            </div>
+
+            <div class="box">
+                <h1>B. Sc. IT (Infrastructure Services)</h1>
+            </div>
+
+            <div class="box">
+                <h1>B. Sc. IT (Cyber Security)</h1>
+            </div>
+
+            <div class="box">
+                <h1>B. Sc. IT (Data Science)</h1>
+            </div>
+
+        </div>
+    </section>
+    <hr>
+    <section>
+        <h2><span class="mod1" id="panal4">Management Studies</span></h2>
+        <div class="container" id="flip4">
+
+            <div class="box">
+                <h1>BBA</h1>
+            </div>
+
+            <div class="box">
+                <h1>BBA (Financial Services)</h1>
+            </div>
+
+            <div class="box">
+                <h1>BBA (General)</h1>
+            </div>
+
+            <div class="box">
+                <h1>BBA (Marketing Management)</h1>
+            </div>
+        </div>
+    </section>
+    <hr>
+    <section>
+        <h2><span class="mod1" id="panal5">Pharmacy</span></h2>
+        <div class="container" id="flip5">
+
+            <div class="box">
+                <h1>B.Pharm. (Pharmacy)</h1>
+            </div>
+        </div>
+    </section>
+    <hr>
+    <section>
+        <h2><span class="mod1" id="panal6">Sciences</span></h2>
+        <div class="container" id="flip6">
+
+            <div class="box">
+                <h1>B.Sc. (Food Technology)</h1>
+            </div>
+
+            <div class="box">
+                <h1>B.Sc. (Biotechnology)</h1>
+            </div>
+
+            <div class="box">
+                <h1>B.sc. (Chemistry)</h1>
+            </div>
+
+            <div class="box">
+                <h1>B.sc. (Mathematics)</h1>
+            </div>
+
+            <div class="box">
+                <h1>B.sc. (Microbiology)</h1>
+            </div>
+
+            <div class="box">
+                <h1>B.sc. (Psysics)</h1>
+            </div>
+
+        </div>
+    </section>
+    <hr>
+    <section>
+        <h2><span class="mod1" id="panal7">Social Sciences & Humanities</span></h2>
+        <div class="container" id="flip7">
+
+            <div class="box">
+                <h1>B. Com.</h1>
+            </div>
+        </div>
+    </section>
+    <hr>
+    <section>
+        <h2><span class="mod1" id="panal8">Maritime studies</span></h2>
+        <div class="container" id="flip8">
+
+            <div class="box">
+                <h1>B. Sc. (Nautical Science)</h1>
+            </div>
+        </div>
+    </section>
+    <hr>
+    <section>
+        <h2><span class="mod1" id="panal9">Agriculture & Allied Sciences</span></h2>
+        <div class="container" id="flip9">
+
+            <div class="box">
+                <h1>B.Sc. (Hons.) Agriculture</h1>
+            </div>
+        </div>
+    </section>
+    <hr>
+    <section>
+        <h2><span class="mod1" id="panal10">Nursing</span></h2>
+        <div class="container" id="flip10">
+
+            <div class="box">
+                <h1>B.Sc. (Nursing)</h1>
+            </div>
+
+            <div class="box">
+                <h1>General Nursing Midwifery (GNM)</h1>
+            </div>
+
+        </div>
+    </section>
+    <hr>
+
+    <section>
+        <h2 class="align-center"><span class="mod">Facts and Figures</span></h2>
+        <div class="container">
+
+            <div class="box-0">
+                <h1>2519</h1>
+                <h3>STUDENTS GRADUATED</h3>
+            </div>
+
+            <div class="box-0">
+                <h1>1380+</h1>
+                <h3>TOTAL JOBS OFFERED</h3>
+            </div>
+
+            <div class="box-0">
+                <h1>405+</h1>
+                <h3>COMPANIES OFFERED JOBS</h3>
+            </div>
+
+            <div class="box-0">
+                <h1>12 LACS </h1>
+                <h3>HIGHEST PACKAGE OFFERED</h3>
+            </div>
+
+            <div class="box-0">
+                <h1>3.09 LACS</h1>
+                <h3>AVERAGE PACKAGE OFFERED</h3>
+            </div>
+
+            <div class="box-0">
+                <h1>290+</h1>
+                <h3>JOBS OFFERED EVEN BEFORE COMPLETION OF STUDY</h3>
+            </div>
+
+            <div class="box-0">
+                <h1>260+</h1>
+                <h3>OPTED FOR FURTHER EDUCATION IN INDIA</h3>
+            </div>
+
+            <div class="box-0">
+                <h1>240+</h1>
+                <h3>STUDENTS OPTED FOR FURTHER STUDIES ABROAD</h3>
+            </div>
+
+            <div class="box-0">
+                <h1>190+</h1>
+                <h3>STUDENTS OPTED FOR BUSINESS</h3>
+            </div>
+
+            <div class="box-0">
+                <h1>05</h1>
+                <h3>STUDENTS PLACED OVERSEAS</h3>
+            </div>
+
+            <div class="box-0">
+                <h1>150%</h1>
+                <h3>HIGHEST RISE IN SALARY AFTER 02 YEARS OF EXPERIENCE</h3>
+            </div>
+
+            <div class="box-0">
+                <h1>100%</h1>
+                <h3>INTERNSHIPS OFFERED TO STUDENTS </h3>
+            </div>
+
+        </div>
+    </section>
+
+    <footer>
+        <div>
+            <a href="#">FAQ</a>
+            <a href="#">Contect Us</a>
+            <a href="#">Terms of Use</a>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Refund Policy</a>
+            <a href="#">&copy;Ganpat University</a>
+        </div>
+    </footer>
+
+    <hr>
+
+</body>
+
+
+</html>
